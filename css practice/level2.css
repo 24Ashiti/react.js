@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#navbar{
+    height: 30px;
+    background-color: #0f1111;
+    padding-top: 10px;
+    border: 5px solid white;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+   color:#f08804;  
+}
+a{
+    margin-right: 200px;
+}

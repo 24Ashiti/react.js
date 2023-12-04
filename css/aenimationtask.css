@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+div {
+    height:500px;
+    width: 1000px;
+    background-color: antiquewhite;
+    border: 3px solid black;
+    margin-top: 1vh;
+    margin-left: 1vw;
+
+}
+
+.img1 {
+    display: flex;
+    height: 50px;
+    width: 50px;   
+    animation-name: ball1;
+    position: relative;
+    animation-duration: 10s;     
+    animation-delay: 0s;
+}
+
+/* @keyframes ball1 {
+    from {
+        top: 0px;
+        left: 0px;
+
+    }
+
+    to {
+        top: 0px;
+        left: 4500px;
+
+
+    }
+} */
+@keyframes ball1 {
+   
+    0%{
+       
+        top: 0px;
+        left: 0px;     
+         
+
+    }
+   20%{
+       
+        top: 444px;
+        left: 4530px;           
+
+    }
+   
+    40%{    
+        top: 888px;
+       
+        left: 0px; 
+        
+    }
+    60%{
+        top: 1332px;
+       
+        left: 4530px; 
+        
+    }
+    80%{
+        top: 1776px;
+       
+        left: 0px; 
+        
+    }
+    100%{
+        top: 2220px;
+       
+        left: 4530px; 
+        
+    }
+    
+   
+    
+}
+.img2 {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    left: 4530px;
+    bottom:300px;
+    animation-name: ball2;
+    position: relative;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-direction: reverse;
+    
+}
+
+/* @keyframes ball2{
+    from{
+        top:2120px;
+        left:4500px;
+
+    }
+    to{
+        top:2120px;
+        left:0px;
+
+
+    }
+} */
+@keyframes ball2 {
+   0%{
+       
+         top:-300px;
+        left: 4530px;     
+         
+
+    }
+   20%{
+       
+        top: 125px;
+        left: 0px;           
+
+    }
+   
+    40%{    
+        top:550px;
+       
+        left: 4530px;  
+        
+    }
+    60%{
+        top: 975px;
+       
+        left: 0px; 
+        
+    }
+    80%{
+        top: 1420px;
+       
+        left: 4530px;   
+        
+    }
+    100%{
+        top: 1920px;
+       
+        left: 0px; 
+        
+    }
+    
+} 
+
+
+
+.box {
+    height: 800px;
+    width: 800px;
+    border: 15px solid rgb(56, 4, 4);
+    position: relative;
+    padding: 0px;
+    
+
+
+   
+    
+
+
+}

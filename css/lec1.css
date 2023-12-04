@@ -1,0 +1,79 @@
+body{
+    background-color: orange;
+} 
+
+ .box-1{
+    height: 100px;
+    width: 100px;
+    background-color:
+    black;
+    border: 20px solid pink;
+}   
+
+body{
+    background-color: skyblue;
+    color: brown;
+} 
+
+/* css resetting properties value */
+
+
+
+/* universal selector */
+
+ *{
+    background-color: green;
+    color:yellow;
+    text-decoration: none;
+}
+p{
+    background-color: red;
+} 
+
+/* 1. simple tag selector */
+ 
+h1{
+    color: blueviolet;
+} 
+
+
+/* 2. css class selector */
+ 
+.classroom
+{
+    color:violet;
+} 
+
+/* 3. unique id selector */
+
+#div1{
+    color: goldenrod;
+}
+
+.p1 ,.span ,.div{
+    color: pink;
+
+}
+
+
+/* link selector */
+
+ a:link{
+    background-color: blue;
+    color: red;
+} 
+
+a:active{
+    background-color: yellowgreen;
+    color: blueviolet;
+}
+
+a:hover{
+    background-color: grey;
+    color: green;
+}
+
+a:visited{
+    background-color: aqua;
+    color: black;
+}

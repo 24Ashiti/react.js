@@ -1,0 +1,1736 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* common css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: all 0.5s;
+}
+
+.container {
+    max-width: 1050px;
+    margin: auto;
+}
+
+/* header start */
+.bg-top-color {
+    background-color: black;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.topbar-text p {
+    color: white;
+}
+
+.top-select {
+    display: flex;
+}
+
+/* navigationbar start */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.user-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-image i {
+    font-size: 25px;
+    color: gray;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-text {
+    margin-left: 10px;
+}
+
+.search-input {
+    border: 2px solid #0989ff;
+    display: flex;
+    align-items: center;
+}
+
+.text-input input {
+    border: 0;
+}
+
+.text-input:focus-within input {
+    border: 0;
+    outline: none;
+}
+
+.navi-select select {
+    border: 0;
+}
+
+.search-icon {
+    background-color: #0989ff;
+    padding: 10px 20px;
+}
+
+/* Hover Effect in Card View
+
+.card {
+    height: auto;
+    width: 250px;
+    border: 1px solid gray;
+    margin: 100px;
+    overflow: hidden;
+}
+
+.card-image img {
+    object-fit: cover;
+}
+
+.card-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.card-image {
+    position: relative;
+}
+
+.hover-open-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    transition: 1.5s;
+}
+
+.card-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+}
+
+
+.card-text {
+    padding: 20px 35px;
+    border-top: 1px solid gray
+} */
+
+#innerhead2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.head2-dropdown {
+    padding: 8px;
+    font-size: 12px;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+.head2-dropdown:hover {
+    color: #0989ff;
+    cursor: pointer;
+}
+
+.allcata {
+    display: flex;
+}
+
+.nav-item {
+    display: flex;
+}
+
+.allCataChild {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    color: white;
+    padding: 8px 0px;
+    background-color: #0989ff;
+    transition: all 0.3s;
+}
+
+.allCataChild:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.head2-contact {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head2-contact div {
+    padding: 0px 5px;
+}
+
+.head2-contact div p {
+    font-size: 12px;
+}
+
+.allcata:hover .head2drop {
+    display: block;
+}
+
+.head2drop {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid black;
+    top: 35px;
+    z-index: 10;
+}
+
+.allCataList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.allCataList img {
+    width: 30px;
+    height: 30px;
+}
+
+.sideList {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    display: none;
+}
+
+.sideList li {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.allCataList:hover .sideList {
+    display: block;
+}
+
+
+.best-bg {
+    background-color: #115061;
+    height: 500px;
+}
+
+.mainpart {
+    position: relative;
+}
+
+.bg-desing img {
+    mix-blend-mode: luminosity;
+    opacity: 0.1;
+    position: absolute;
+    right: 0;
+    margin-top: -160px;
+}
+
+.bg-text {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 120px;
+    top: 100px;
+}
+
+.watch {
+    position: absolute;
+    right: 0;
+    margin-top: -500px;
+}
+
+.other-images-1 {
+    position: relative;
+    right: -700px;
+    top: -450px
+}
+
+.other-image-2 {
+    position: relative;
+    top: -425px;
+    left: -32px;
+}
+
+
+
+
+/* SECTION-1 */
+.part-1 {
+    height: 500px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    justify-content: space-evenly;
+}
+
+.section-1 {
+    height: 180px;
+    width: 180px;
+    border: 1px solid rgb(181, 223, 240);
+    display: flex;
+    flex-flow: wrap;
+    background-color: rgb(223, 235, 241);
+    border-radius: 100%;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+
+/* headphone */
+.headphone-image {
+    margin: 46px;
+    object-fit: cover;
+    position: relative;
+}
+
+.headphone-image:hover img {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.headphone-text {
+    text-align: center;
+}
+
+.headphone-text h3:hover {
+    color: blue;
+}
+
+/* Moblie-tablests  */
+.Mobile-1-image {
+    margin: 50px;
+    margin-top: 40px;
+    object-fit: cover;
+    position: relative;
+}
+
+.Mobile-1-image:hover img {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.Moblie-1-text {
+    text-align: center;
+}
+
+.Moblie-1-text h3:hover {
+    color: blue;
+}
+
+/* CPU Heat Pipes */
+.Pipes-1-image {
+    margin: 47px;
+    margin-top: 38px;
+    object-fit: cover;
+    position: relative;
+}
+
+.Pipes-1-image:hover img {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.Pipes-1-text {
+    text-align: center;
+}
+
+.Pipes-1-text h3:hover {
+    color: blue;
+}
+
+/* Smart Watch */
+.SmartWatch-1-image {
+    margin: 50px;
+    object-fit: cover;
+    position: relative;
+}
+
+.SmartWatch-1-image:hover img {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.SmartWatch-1-text {
+    text-align: center;
+}
+
+.SmartWatch-1-text h3:hover {
+    color: blue;
+}
+
+
+/* Bluetooth */
+.Bluetooth-1-image {
+    margin: 50px;
+    margin-top: 15px;
+    object-fit: cover;
+    position: relative;
+}
+
+.Bluetooth-1-image:hover img {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.Bluetooth-1-text {
+    text-align: center;
+}
+
+.Bluetooth-1-text h3:hover {
+    color: blue;
+}
+
+/* Icon */
+.section-2 {
+    height: 100px;
+    width: 250px;
+    display: flex;
+    background-color: rgb(236, 239, 241);
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+/* Free Delivary */
+.shipping-delivery-image i {
+    color: red;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.shipping-delivery-text {
+    margin-left: 5px;
+}
+
+.shipping-delivery-text p {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.shipping-delivery {
+    display: flex;
+    align-items: center;
+}
+
+/* Return & Refunf */
+.Return-image i {
+    color: red;
+    font-size: 20px;
+    align-items: flex-start;
+    margin: 15px;
+}
+
+.Return-text {
+    margin-left: 5px;
+}
+
+.Return-text p {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.Return {
+    display: flex;
+    align-items: center;
+}
+
+/* Discount */
+.Discount-image i {
+    color: red;
+    font-size: 20px;
+    align-items: flex-start;
+    margin: 15px;
+}
+
+.Discount-text {
+    margin-left: 5px;
+}
+
+.Discount-text p {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.Discount {
+    display: flex;
+    align-items: center;
+}
+
+/* support*/
+.Support-image i {
+    color: red;
+    font-size: 20px;
+    align-items: flex-start;
+    margin: 15px;
+}
+
+.Support-text {
+    margin-left: 5px;
+}
+
+.Support-text p {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.Support {
+    display: flex;
+    align-items: center;
+}
+
+
+/* MAIN SECTION-2  */
+
+.main_part_name h1 {
+    color: black;
+}
+
+.main_part_name img {
+    margin-top: -10px;
+    color: red;
+}
+
+/* 1. wireless */
+.part-2 {
+    height: 800px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.section-3 {
+    height: 375px;
+    width: 250px;
+    border: 1px solid rgb(229, 233, 233);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.wireless-image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.wireless-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.wireless-image {
+    position: relative;
+}
+
+/* Hover */
+.hover-open-content {
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    transition: 1.5s;
+    background-color: rgba(255, 255, 255, 0.686);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.wireless-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.wireless-text {
+    padding: 20px 35px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+
+/*2.  Gaming Headphone  */
+.Gaming-image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Gaming-image:hover:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Gaming-image {
+    position: relative;
+}
+
+/* Hover */
+.Gaming-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Gaming-text {
+    padding: 20px 35px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+
+/*3. Headphone with Mic*/
+.Mic-image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Mic-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Mic-image {
+    position: relative;
+}
+
+/* Hover */
+.Mic-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Mic-text {
+    padding: 20px 35px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*4.Galaxy Android Tablet*/
+.Galaxy-image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Galaxy-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Galaxy-image {
+    position: relative;
+}
+
+/* Hover */
+.Galaxy-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Galaxy-text {
+    padding: 20px 35px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*5. iPhone 14 Pro */
+.iphone-image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.iphone-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.iphone-image {
+    position: relative;
+}
+
+/* Hover */
+.iphone-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.iphone-text {
+    padding: 20px 35px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*6. Apple iPad Air*/
+.Apple-image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Apple-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Apple-image {
+    position: relative;
+}
+
+/* Hover */
+.Apple-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Apple-text {
+    padding: 20px 35px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*7.DeepCool Air Cooler*/
+.Deepcool-image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.DeepCool-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.DeepCool-image {
+    position: relative;
+}
+
+/* Hover */
+.DeepCool-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.DeepCool-text {
+    padding: 20px 35px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*8. Antec Air Cooler*/
+.Air-image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Air-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Air-image {
+    position: relative;
+}
+
+/* Hover */
+.Air-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Air-text {
+    padding: 20px 35px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/* add */
+.section-4 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-1 {
+    overflow: hidden;
+    position: relative;
+    width: 500px;
+    height: 250px;
+}
+
+.add-2 {
+    overflow: hidden;
+    position: relative;
+    width: 500px;
+    height: 250px;
+
+}
+
+.add-image-1 {
+    position: absolute;
+}
+
+.add-image-1:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.add-image-1 img {
+    object-fit: cover;
+    object-position: right;
+}
+
+.add-image-2 img {
+    object-fit: cover;
+    object-position: right;
+}
+
+.add-text-1 {
+    position: absolute;
+}
+
+.add-text-1 h1:hover {
+    color: blue;
+}
+
+.add-1 button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+/* add-2 */
+.add-image-2 {
+    position: absolute;
+}
+
+.add-text-2 {
+    position: absolute;
+}
+
+.add-image-2:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.add-text-2 h1:hover {
+    color: blue;
+}
+
+.add-2 button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+
+/* MAIN PART-3 */
+.bg-color {
+    height: 600px;
+    width: auto;
+    /* background-color: #55585b; */
+    background-color: rgb(236, 239, 241);
+    opacity: 0.9;
+}
+
+.main_part_name-1 h1 {
+    position: relative;
+    margin-top: 370px;
+    top: 40px;
+    bottom: 60px;
+    color: black;
+}
+
+.main_part_name-1 img {
+    position: relative;
+    top: 22px
+}
+
+.part-3 {
+    max-height: 800px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-flow: row;
+}
+
+.section-5 {
+    height: 400px;
+    width: 280px;
+    border: 1px solid rgb(229, 233, 233);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+/* Gaming_headphone */
+.Gaming_headphone-image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Gaming_headphone-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Gaming_headphone-image {
+    position: relative;
+}
+
+/* Hover */
+.Gaming_headphone-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Gaming_headphone-text {
+    padding: 20px 35px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/* antec_air_cooler */
+.antec_air_cooler-image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.antec_air_cooler-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.antec_air_cooler-image {
+    position: relative;
+}
+
+/* Hover */
+.antec_air_cooler-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.antec_air_cooler-text {
+    padding: 20px 35px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/* Sony_Lady_fitness_watch */
+.Sony_Lady_fitness_watch-image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Sony_Lady_fitness_watch-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Sony_Lady_fitness_watch-image {
+    position: relative;
+}
+
+/* Hover */
+.Sony_Lady_fitness_watch-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Sony_Lady_fitness_watch-text {
+    padding: 20px 35px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/* MAIN PART-4 */
+/* .part-4
+ {
+        max-height: 950px;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;   
+        justify-content: space-evenly;
+        flex-flow: row;
+}
+.wrap_contain
+{
+    height: 950px;
+    width: 150px;
+    display: flex;
+    position: sticky;
+    
+}
+.aside
+{
+    height: 350px;
+    width: 150px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.section-6
+ {
+        height: 400px;
+        width: 280px;
+        border: 1px solid rgb(229, 233, 233); 
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        background-color: white;
+ }
+ */
+
+
+/* STICKY */
+
+.peraSticky {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.leftSticky {
+    width: 30%;
+}
+.leftSticky ul{
+    font-size: 13px;
+    padding-top: 10px;
+    list-style: circle;
+}
+.leftSticky .leftStickyChild div {
+    width: 50%;
+}
+.leftSticky .leftmanu{
+    padding: 20px; 
+    
+}
+.leftSticky .leftmanu a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    transition: all 0.5s;
+}
+
+.leftSticky .leftmanu a:hover{
+    color: blue;
+}
+
+.leftSticky .leftmanu a:hover i{
+    position: relative;
+    right: -10px;
+}
+.leftSticky .leftStickyChild {
+    border: 3px solid rgb(202, 34, 199);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.leftSticky h4 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid blue;
+}
+
+.rightSticky {
+    width: 70%;
+}
+
+.section-3_2 {
+    height: 375px;
+    width: 200px;
+    border: 1px solid rgb(229, 233, 233);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.section-3_2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    transition: all .5s;
+}
+.section-3_2 .hover-open-content{
+    right: -10px;
+}
+.section-3_2:hover .hover-open-content{
+    right: 40px;
+}
+.text-59{
+    padding: 10px;
+    margin-left: 10px;
+    color:white;
+    position: relative;
+    top: -140px;
+}
+.image59{
+    padding-top: 10px;
+}
+    /* ### */
+
+.gal-tab{
+    background-color:#0989ff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.gal-text{
+    padding: 50px;
+    color:white;
+}
+.gal-text .title{
+    font-size: 45px;
+    font-weight: 900;
+}
+.button{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+.off{
+    position: relative;
+    left: 100px;
+}
+
+
+
+/* Main Part-5 */
+.part-5 {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.section-8 {
+    height: 375px;
+    width: 250px;
+    border: 1px solid rgb(229, 233, 233);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 80px;
+}
+
+.main_part_name-2 h1 {
+    position: relative;
+    top: 50px;
+    /* bottom: 100px; */
+    color: black;
+}
+
+.main_part_name-2 img {
+    position: relative;
+    top: 25px
+}
+
+.Apple_watch-image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Apple_watch-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Apple_watch-image {
+    position: relative;
+}
+
+/* Hover */
+.hover-open-content {
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    transition: 1.5s;
+}
+
+.Apple_watch-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Apple_watch-text {
+    padding: 20px 35px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*2. Sony_Smart_Watch  */
+.Sony_Smart_Watch img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Sony_Smart_Watch-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Sony_Smart_Watch-image {
+    position: relative;
+}
+
+/* Hover */
+.Sony_Smart_Watch-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Sony_Smart_Watch-text {
+    padding: 20px 35px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+
+/*3. Sony Lady Fitness Watch*/
+.Sony_Lady_Fitness_Watch-image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Sony_Lady_Fitness_Watch-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Sony_Lady_Fitness_Watch-image {
+    position: relative;
+}
+
+/* Hover */
+.Sony_Lady_Fitness_Watch-image:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Sony_Lady_Fitness_Watch-text {
+    padding: 20px 35px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+
+/* Lenova */
+.Lenova-image img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.Lenova-image:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.Lenova-image {
+    position: relative;
+}
+
+/* Hover */
+.Lenova:hover .hover-open-content {
+    display: block;
+    transform: translate(30px);
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.Lenova-text {
+    padding: 20px 35px;
+    border-top: 1px solid rgb(229, 233, 233);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    padding: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.grid-container a h1{
+    position: relative;
+    top: 20px;
+  }
+
+.grid_item1_1{
+    background: rgb(224, 232, 242);
+    width: 30%;
+    border-radius: 10px;
+}
+.grid_item1_text{
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.grid_item1_text p{
+    font-size: 10px;
+}
+.grid_item1_text h6{
+    font-size: 13px;
+}
+.grid_item1_text span{
+    font-size: 10px;
+    color: orange;
+    padding-top: 10px;
+}
+.grid_item1_text h5{
+    font-size: 13px;
+    color: blue;
+    padding-top: 10px;
+}
+.grid_item1_1:hover img{
+    transform: scale(1.1);
+
+}
+/* .news div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.news-button{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color:white;
+    border: none;
+}
+.news-button:hover{
+    background-color: black;
+}
+.news_part{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    justify-content:space-between
+}
+.news_part div{
+   
+}
+.news-main{
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+} */
+.part-6
+ {
+   width: auto;
+   display: flex;
+   flex-wrap: wrap;   
+   justify-content: space-evenly;
+   margin-bottom: 50px;
+}
+.section-10
+  {
+        height: 500px;
+        width: 320px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        object-fit: cover;
+ }
+/* MAIN PART-6  */
+.main_part_name-3 h1{
+   position: relative;
+   top:50px;
+   color: black;
+   font-size: 45px;
+}
+.main_part_name-3 img{
+   position: relative;
+   top:25px;
+   border-radius: 10px;
+}
+.bg-text-2
+{
+   margin-top: 25px;
+}
+.bg-text-2 a
+{
+   padding: 10px 20px;
+   border: 1px solid gray;
+   border-radius: 8px;
+}
+.bg-text-2 a:hover
+{
+   color: white;
+   background-color:blue;
+}
+.shop-text-2 i
+{
+   margin-left: 5px;
+   position: relative;
+   top: 3px;
+   font-size: 20px;
+}
+.ceramics-text 
+{
+   margin-top: 20px;
+   line-height: 1.5;
+}
+.climates-text
+{
+   margin-top: 20px;
+   line-height: 1.5;
+}
+.colthes-text
+{
+   margin-top: 20px ;
+   line-height: 1.5;
+}
+.ceramics-text  h3
+{
+   margin-bottom: 5px;
+}
+.climates-text h3
+{
+   margin-bottom: 5px;
+}
+.colthes-text h3
+{
+   margin-bottom: 5px;
+}
+.ceramics-text p
+{
+   margin-top: 8px;
+   padding-bottom: 12px;
+   font-size: 12px;
+}
+.climates-text p
+{
+   margin-top: 8px;
+   padding-bottom: 12px;
+   font-size: 12px;
+}
+.colthes-text p
+{
+   margin-top: 8px;
+   padding-bottom: 12px;
+   font-size: 12px;
+}
+.ceramics-image a
+{
+   padding: 8px 15px;
+   color: white;
+   background-color: black;
+   position: relative; 
+   top: -245px;
+}
+.climates-image a
+{
+   padding: 8px 15px;
+   color: white;
+   background-color: black;
+   position: relative; 
+   top: -245px;
+}
+.clothes-image a
+{
+   padding: 8px 15px;
+   color: white;
+   background-color: black;
+   position: relative; 
+   top: -245px;
+}
+/* section-11 */
+.section-11
+{
+   display: flex;
+   justify-content: space-between;
+}
+.section-11:hover
+{
+   
+}
+ /* section{
+    padding: 80px 13% 70px;
+ } */
+ /* .footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    line-height: 2;
+ } */
+ footer
+{
+   margin-top: 100px;
+   background-color: #e8e9ea;
+}
+.Newsletter
+{
+   background-color: #0989ff;
+   height: 190px;
+}
+.News-text{
+   position: relative;
+   z-index: 1;
+   font-size: 20px;
+   color: white;
+   padding-top: 70px;
+}
+.News-text span
+{
+   font-size: 15px;
+}
+.men-image{
+   position: relative;
+   bottom: 150px;
+   left: 1050px;
+}
+.plane
+{
+   position: relative;
+   bottom: 320px;
+   left: 800px;
+}
+.submit input{
+   position: relative;
+   bottom: 300px;
+   left: 800px;
+   display: flex;
+   position: relative;
+   padding-right: 100px;
+   padding-left: 20px;
+   background-color: white;
+   border: 0;
+   border-radius: 8px 0 0 8px;
+   height: 50px;
+   width: 350px;
+}
+button
+{
+   background-color: black;
+   border-radius: 0 8px 8px 0;
+   color: white;
+   padding: 16px 40px;
+   position: relative;
+   bottom: 350px;
+   left: 1100px;
+
+}
+.Newsdesing-1
+{
+   mix-blend-mode: luminosity;
+   opacity: 0.4;
+   position: absolute;
+   left: 0;
+}
+footer .Newsdesing-2
+{
+   mix-blend-mode: luminosity;
+   opacity: 0.4;
+   position: absolute;
+   left: 200px; 
+   top: 50px;
+}
+.Newsdesing-3
+{
+   mix-blend-mode: luminosity;
+   opacity: 0.4;
+   position: absolute;
+   left: 280px;
+}
+
+.all_div
+{
+   display: flex;
+   justify-content:space-between;
+   margin-top: 30px;
+}
+.div-1
+{
+   padding: 60px 60px 60px 0;
+   width: 30%;
+   line-height: 1.5;
+   margin-bottom: 40px;
+}
+.div-1 img
+{
+   margin-bottom: 20px;
+}
+.div-1 p
+{
+   margin-bottom: 20px;
+}
+.browser i
+{
+   background-color: white;
+   border-radius: 8px;
+   display: inline;
+   padding: 8px;
+   height: 40px;
+   width: 40px;
+   margin-right: 5px;
+   text-align: center;
+   color: rgb(48, 48, 48);
+   box-shadow: 0 1px 1px rgb(159, 158, 158);
+}
+.browser i:hover
+{
+   color: white;
+   background-color: #0989ff;
+}
+.div-2
+{
+   padding: 40px;
+   width: 20%;
+   line-height: 2;
+}
+.div-2 ul li
+{
+   list-style-type: disc;
+   font-size: 13px;
+   line-height: 2.5;
+   color: rgb(60, 59, 59);
+}
+.div-2 h4
+{
+   position: relative;
+   right: 12px;
+}
+.div-3 ul li
+{
+   list-style-type: disc;
+   font-size: 13px;
+   line-height: 2.5;
+   color: rgb(60, 59, 59);
+}
+.div-3 h4
+{
+   position: relative;
+   right: 12px;
+}
+.div-3
+{
+   padding: 40px;
+   width: 25%;
+   line-height: 2;
+}
+.div-4
+{
+   padding: 40px;
+   width: 25%;
+   line-height: 1.3;
+}
+.div-4 h4
+{
+   margin-bottom: 10px;
+}
+.div-4 h2
+{
+   margin-bottom: 12px;
+}
+.div-4 span
+{ 
+   font-size: 13px;
+}
+.div-4 a
+{
+   color: inherit;
+   font-size: 13px;
+}
+.last_part
+{
+   border-top: 1px solid rgb(204, 201, 201);
+   padding-bottom: 80px;
+   font-size: 13px;
+}
+.last_part img
+{
+   position: relative;
+   top: 15px;
+   left: 535px;
+}
+.last_part span span
+{
+   color: #0989ff
+}

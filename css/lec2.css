@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+}
+
+/*1. css color */
+
+.rgb{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(5,210,180);
+}
+ 
+.rgba{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(10,120 ,255 ,11);
+} 
+
+
+.hex{
+    height: 100px;
+    width: 100px;
+    background-color: #ff0000;
+}
+
+.hsl{
+   height: 100px;
+   width: 100px;
+   background-color: hsl (12 ,50% ,60%);
+   
+} 
+
+/* 2. CSS background properties */
+
+.back_image
+{
+   background-image: url('krishna.jpeg'); 
+   background-color: blue;
+   background-repeat:no-repeat;
+   border: 10px solid transparent;
+   padding: 50px solid;
+   background-size: cover;
+   height: 300px;
+   width:  300px;
+   background-clip: padding-box;
+   background-origin: border-box;
+}
+ 
+.linear-garadient-1
+{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to right, red ,blue ,yellow);
+    /* line color blur */
+} 
+
+.diagonal-linear-gradient
+{
+    height:200px;
+    width: 200px;
+    background: linear-gradient(to 
+    bottom,pink 50% ,yellow 30% );
+    /* part two color */
+}
+
+.linear-gradient-raindow
+{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to top, red ,orange ,yellow,green ,blue ,navy,indigo );
+    /* raindow color */
+}
+
+
+.radial-gradient-simple
+{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(red ,orange ,yellow ,green ,blue ,pink ,navy);
+    /* all color bulr round */
+
+}
+ 
+.radial-gradient
+{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(circle farthest-corner at top, red ,blue);
+    /* any one side haf round color layer */
+} 
+
+.bullseye
+{
+      height: 200px;
+      width: 200px;
+      background: repeating-radial-gradient(red,red 5%,white ,white 20%);
+      /* round color */
+}
+
+.warning{
+   height: 200px;
+   width: 200px;
+   background: repeating-linear-gradient(-30deg ,yellow, yellow 10%, pink 10% , pink 20%);
+   /*  rigth to left dobbel color line */
+}
+
+.conic
+{
+    height: 200px;
+    width: 200px;
+     background-color: red; 
+    background: radial-gradient(circle, navy 0%, pink 47% , white 100%);
+     /* blur round color
+       */
+}
+
+/* 3. CSS border types */
+
+.border
+{
+    height: 200px;
+    width: 200px;
+    border: 20px groove black;
+    outline:10px dotted red;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+/* 4.Border radius */
+
+/* 5.CSS outline property */
+   /* outline:none;
+      outline:width style color */
+
+.outline{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    outline: 10px double blue;
+    margin: 100px;
+    outline-offset: 50px;
+}
+
+/* 6.CSS opacity */
+
+.opacity{
+    opacity: 100%;
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+}

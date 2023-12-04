@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+h1:only-child{
+   background-color:pink;
+   color: red;
+}/*8*/
+h1:only-of-type{
+    background-color: pink;
+    color:red;
+}/*6,7,9*/
+h1:nth-child(6){
+    background-color: pink;
+    color:red;
+}/*4*/
+h1:nth-child(22){
+    background-color: pink;
+    color:red;
+}/*21*/
+:nth-child(3n+1){
+    /* background-color: pink; */
+    color:red;
+}/*1,2*/
+h1:nth-child(14){
+    background-color: pink;
+    color:red;
+}/*13*/
+h1:nth-last-child(22){
+    background-color: pink;
+    color:red;
+}/*3*/
+h1:nth-child(13){
+    background-color: pink;
+    color:red;
+}/*12*/
+div:nth-child(12) h1:nth-child(2){
+    background-color: pink;
+    color:red;
+} /*11*/
+.heading,h1:nth-child(12){
+    background-color:pink;
+    color:redtr7;
+}/*10*/
+p:only-child{
+    background-color:pink;
+    color:redtr7;
+}/*14*/
+p:nth-child(2){
+    background-color:pink;
+    color:redtr7;
+}  /*15*/
+div:nth-child(17) div:nth-child(3) h1:last-child{
+    background-color:pink;
+    color:redtr7;
+}/*17,18*/
+div div div h1:nth-child(1){
+    background-color:pink;
+    color:redtr7;
+} /*16,8*/
+h1:nth-child(19){
+    background-color:pink;
+    color:redtr7;
+}/*20*/
+div:nth-child(18) div h1:first-child{
+    background-color:pink;
+    color:redtr7;
+}/*19*/
+input:nth-child(9){
+    background-color:pink;
+    color:redtr7;
+} 

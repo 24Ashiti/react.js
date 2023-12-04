@@ -1,0 +1,105 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+    /* css index */
+
+/* aligan-self: flex-start */
+
+
+/*css flex-box / container  properties */
+
+/*flex-wrap: wrap; */
+/* flex-wrap:  no wrap; */
+/* flex-wrap:  wrap-reverse; */
+/* flex-direction: row; */
+/* flex-direction: row-reverse */
+/* flex-direction: colum; */
+/* flex-direction: colum-reverse; */
+/* justify-content: flex-start; */
+/* justify-content: flex-end; */
+/* justify-content: center; */
+/* justify-content: space-between */
+/* justify-content:  space-around; */
+/* justify-content:  space-evenly; */
+/* align-item: flex-start; */
+/* align-item: flex-end; */
+/* align-item: center; */
+/* align-self: flex-start; */
+/* align-self: flex-end; */
+/* align-self: center; */
+/* align-self: end; */
+/* align-self: self-start; */
+/* align-self: self-end; */
+/* flex-flow: colum wrap; */
+/* flex-flow: row-reverse wrap-reverse; */
+
+.container{
+    max-width: 1600px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.box{
+    height: 100vh;
+    display: flex;
+   flex-direction:row;
+}
+.box div{
+    font-size: 30px;
+    color: white;
+}
+
+.demo-box1{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+
+.demo-box2{
+    width: 100px;
+    height: 100px;
+    background-color: green; 
+}
+
+.demo-box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(225, 6, 6);
+}
+
+.demo-box4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(37, 221 ,8); 
+}
+
+.demo-box5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(1, 168, 219); 
+}
+
+.demo-box6{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(234, 199 ,0); 
+}
+
+/*
+
+parent properties
+display:flex;
+defult: flex-direction:row;
+row-direction :- justyfy-content properties horizontal movement
+                 align-item properties vertical movement
+
+row-reverse   :-justyfy-content properties horizontal movement
+                 align-item properties vertical movement
+
+flex-direction:colum/ colum-reverse
+
+justyfy-contant properties vertical movement
+align item properties horizontal movement
+
+*/

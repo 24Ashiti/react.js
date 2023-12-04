@@ -1,0 +1,99 @@
+ /* div :hover{
+    background-color: rgb(103, 217, 103);
+    transform: scale(0.9);
+    transition: 1s; 
+} */
+.col-12{
+    border: 2px solid black;
+    background-color:pink;
+    height: 50px;
+    border-top: none;
+}
+
+.col-11{
+    border: 2px solid black;
+    background-color:pink;
+    height: 50px;
+    margin: auto;
+    border-top: none;
+}
+
+.col-10{
+    border: 2px solid black;
+    background-color:pink;
+    height: 50px;
+    margin: auto;
+    border-top: none;
+}
+
+.col-9{
+    border: 2px solid black;
+    background-color:pink;
+    height: 50px;
+    margin: auto;
+    border-top: none;
+}
+
+.col-8{
+    border: 2px solid black;
+    background-color:pink;
+    height: 50px;
+    margin: auto;
+    border-top: none;
+}
+
+.col-7{
+    border: 2px solid black;
+    background-color:pink;
+    height: 50px;
+    margin: auto;
+    border-top: none;
+}
+
+.col-6{
+    border: 2px solid black;
+    background-color:pink;
+    height: 50px;
+    margin: auto;
+    border-top: none;
+}
+
+.col-5{
+    border: 2px solid black;
+    background-color:pink;
+    height: 50px;
+    margin: auto;
+    border-top: none;
+}
+
+.col-4{
+    border: 2px solid black;
+    background-color: pink;
+    height: 50px;
+    margin: auto;
+    border-top: none;
+}
+
+.col-3{
+    border: 2px solid black;
+    background-color: pink;
+    height: 50px;
+    margin: auto;
+    border-top: none;
+}
+
+.col-2{
+    border: 2px solid black;
+    background-color: pink;
+    height: 50px;
+    margin: auto;
+    border-top: none;
+}
+
+.col-1{
+    border: 2px solid black;
+    background-color: pink;
+    height: 50px;
+    margin: auto;
+    border-top: none;
+}

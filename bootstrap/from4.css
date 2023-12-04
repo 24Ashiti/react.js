@@ -1,0 +1,14 @@
+.box
+{
+    height: 500px;
+    width: 500px;
+    border: 2px solid white;
+    color: white;
+    margin: auto;
+    margin-top: 150px;
+    padding: 40px;
+}  
+.row
+{
+    padding: 10px 0;
+}
