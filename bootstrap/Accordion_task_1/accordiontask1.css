@@ -1,0 +1,84 @@
+body{
+    background-color: red;
+}
+
+.main{
+    position:absolute;
+    top: 150px;
+    left: 350px;
+}
+
+.div-1{
+    padding: 20px;
+    padding-left: 30px;
+    height:200px;
+    width: 800px;
+    background-color: white;
+}
+
+.div-2{
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    height: 50px;
+    width: 800px;
+    background-color: white;
+}
+
+.div-3{
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    height: 50px;
+    width: 800px;
+    background-color: white;
+}
+
+.div-4{
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    height: 50px;
+    width: 800px;
+    background-color: white;
+}
+
+.class{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    position: absolute;
+    top: 15px;
+    left: -6px;
+}
+
+.class-1{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    position: absolute;
+    top: 220px;
+    left: -6px;
+}
+
+.class-2{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    position: absolute;
+    top: 280px;
+    left: -6px;
+}
+
+.class-3{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    position: absolute;
+    top: 340px;
+    left: -6px;
+}

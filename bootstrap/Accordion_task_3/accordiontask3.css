@@ -1,0 +1,22 @@
+.ashiti{
+    height: 500px;
+    width:500px;
+    margin: auto;
+    padding-top: 100px;
+   
+}
+h1{
+    text-align: center;
+    padding-top: 100px;
+}
+.accordion-item{
+    border: none;
+}
+.accordion-button{
+    background-color:purple;
+    color: white;
+}
+.accordion-button:not(.collapsed){
+    background-color:purple;
+    color: white;
+}

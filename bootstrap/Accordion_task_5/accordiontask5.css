@@ -1,0 +1,24 @@
+.ashiti{
+    height: 500px;
+    width:800px;
+    margin: auto;
+    padding-top: 50px;
+   
+}
+.ashitione{
+    height: 100vh;
+    /* background-color: rgb(233, 105, 105); */
+    /* background-color:#dd5e89; */
+    background-image: linear-gradient(#dd5e89,#f7bb97);
+}
+.accordion-body{
+    padding: 50px 40px;
+
+} 
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed){
+    background-color:white;
+    color: black;
+}
