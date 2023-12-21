@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(48, 3, 90);
+}
+.btn-group{
+    text-align: center;
+}
+li{
+    margin: 10px;
+}

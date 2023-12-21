@@ -1,0 +1,14 @@
+.bar 
+{
+    font-size: 40px;
+    font-weight: 900px;
+}
+.d-flex
+{
+    justify-content: end;
+}
+li
+{
+    list-style: none;
+}
+ 
