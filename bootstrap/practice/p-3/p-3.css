@@ -1,0 +1,29 @@
+body{ 
+    font-weight: 600; 
+} 
+.list-group-item{ 
+    height: 52px; 
+} 
+.logo{ 
+    height: 2500px; 
+    width: 80px; 
+} 
+.dropdown-menu.show{ 
+    height: 310px; 
+}  
+.dropdown-toggle::after{ 
+    margin: auto 8px; 
+} 
+.rounded-4{ 
+    margin-bottom: 15px; 
+    margin-top: -10; 
+} 
+.form-control::placeholder { 
+    color: white; 
+    opacity: 2; 
+    font-weight: 600; 
+} 
+ul.dropdown-menu.p-4.show{ 
+    position: absolute; 
+    inset: 10px auto auto 0 !important; 
+} 
