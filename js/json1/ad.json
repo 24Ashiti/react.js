@@ -1,0 +1,13 @@
+[
+    {"name":"ashiti","id":1 , "food":"burger"},
+    {"name":"jasmi","id":2 ,"food":"jiniroll"},
+    {"name":"shrushti" ,"id":3 , "food":"dosa"},
+    {"name":"harsh","id":4 , "food":"sahi-paneer"},
+    {"name":"vasu","id":5 , "food":"patra"},
+    {"name":"ani","id":6 , "food":"paneer-tika"},
+    {"name":"deep","id":7 , "food":"bhel"},
+    {"name":"tushar","id":8 , "food":"rajapuri-mango"},
+    {"name":"yash","id":9 , "food":"gajar-ka-halva"},
+    {"name":"om","id":10 , "food":"samosa"},
+    {"name":"meet","id":11 , "food":"karela-sak"}
+] 
