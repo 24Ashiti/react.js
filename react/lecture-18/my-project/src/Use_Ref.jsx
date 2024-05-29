@@ -15,7 +15,7 @@ const Use_Ref = () => {
   }
 
   function ApplyBgColor(){
-    NewRefElement.current.style.backgroundcolor = "orange"
+    NewRefElement.current.style.backgroundColor = "orange"
   }
   return (
     <div>

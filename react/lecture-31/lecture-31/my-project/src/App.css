@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif; */
+  }
+  
+  header{
+    background-color: rgb(78, 162, 240);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  .logo{
+    max-width: 75px;
+    height: auto;
+  
+  }
+  
+  .nav-links ul{
+    display: flex;
+    list-style-type: none;
+  }
+   
+  .nav-links ul li a{
+    text-decoration: none;
+    margin: 50px;
+    color: white;
+  }
